@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16433190182,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.setupDriver()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4057169190,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.loginToApplication()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "ScenarioName ScenarioName",
+        "description": "",
+        "id": "feature-name;scenarioname-scenarioname;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 827588723,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4926192838,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Navigate to Sign in",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sign in",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefinitions.navigate(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 542936414,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I complete field identifierId with some valid data test@gmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "identifierId",
+                  "offset": 17
+                },
+                {
+                  "val": "test@gmail.com",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.completePage(String,String)"
+            },
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@firefox"
+          }
+        ]
+      }
+    ],
+    "name": "Feature Name",
+    "description": "",
+    "id": "feature-name",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features.feature"
+  }
+]
